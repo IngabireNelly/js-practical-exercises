@@ -1,0 +1,9 @@
+function filterPositiveNumbers(arr) {
+  let name = arr.filter(
+if(arr*1== -arr){
+console.log(name);
+}
+return name;
+  )
+}
+console.log(filterPositiveNumbers([-3, 5, -1, 0, 8, -4, 7]));
