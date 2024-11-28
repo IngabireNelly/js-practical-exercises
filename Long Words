@@ -1,0 +1,5 @@
+function filterLongWords(arr) {
+  return arr.filter(word => word.length > 5);
+}
+
+// filtered out words words the words which had less than 5 characters.
