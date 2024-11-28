@@ -1,9 +1,14 @@
 function filterPositiveNumbers(arr) {
-  let name = arr.filter(
-if(arr*1== -arr){
-console.log(name);
+  // Use the filter method to retain only positive numbers
+  let positiveNumbers = arr.filter(num => num > 0);
+  
+  // Log the filtered array
+  console.log(positiveNumbers);
+
+  // Return the result
+  return positiveNumbers;
 }
-return name;
-  )
-}
+
+// Test the function with an example array
 console.log(filterPositiveNumbers([-3, 5, -1, 0, 8, -4, 7]));
+
